@@ -8,7 +8,7 @@ For example, if you want to exploit a vulnerability and run your own executable 
 
 **Restrictions**
  
-* Not all binaries can be run from memory. For example, applications which require .NET CLR (managed code) won't be run. I will try to implement this in a upcoming version. By now you can download and run .NET application with the -d option which downloads and run it from disk (noisy option).
+* Not all binaries can be run from memory. For example, applications which require .NET CLR (managed code) won't be run. I will try to implement this in an upcoming version. By now you can download and run .NET application from disk with the -d option (noisy option).
 * If .reloc section is not present the script will use a "process hollowing" approach.
 * Support for 32-bit for now.
 
