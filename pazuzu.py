@@ -191,7 +191,7 @@ uses reflective DLL injection. The goal is that you can run your own binary from
     return args
 
 
-# https://en.wikipedia.org/wiki/Edimmu
+# I feel Pazuzu inside me .... https://en.wikipedia.org/wiki/Pazuzu
 def main(argv):
     banner()
     args = get_args()
