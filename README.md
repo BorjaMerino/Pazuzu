@@ -45,3 +45,9 @@ The next example will use putty.exe which has no reloc section. I have chosen "c
  Here the Process Explorer ouput:
 
 ![Alt text](https://github.com/BorjaMerino/Pazuzu/blob/master/Docs/ejemplo3-1.png "Putty.exe (Process Explorer)")
+
+**Video**
+* Watch the following video to see a practical example with the Poison Ivy RAT [Video Pazuzu: www.shellsicoming.com] (https://www.youtube.com/watch?v=2OcEbMgQiVo)
+
+**Disclaimer**
+* This tool is meant for educational purposes only.
