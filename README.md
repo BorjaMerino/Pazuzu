@@ -38,7 +38,7 @@ Let's run it now with the verbose option to see more detailed information:
 
 ![Alt text](https://github.com/BorjaMerino/Pazuzu/blob/master/Docs/ejemplo2.png "Verbose output")
 
-The next example will use putty.exe which has no reloc section. I have chosen "c:\windows\write.exe" to be "hollowed out" and I have encrypted the binary section with RC4. The hidden option **-m** just run msfvenom with a winhttp dllinject stager.
+In the next example I use putty.exe which has no reloc section. I have chosen the system binary "c:\windows\write.exe" (option **-k**) to be "hollowed out" and I have encrypted the binary section with RC4 (option **-x**). The hidden option **-m** just run msfvenom with a winhttp dllinject stager.
 
 ![Alt text](https://github.com/BorjaMerino/Pazuzu/blob/master/Docs/ejemplo3.png "Putty.exe (no .reloc present)")
 
