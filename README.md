@@ -42,7 +42,7 @@ In the next example I use putty.exe which has no reloc section. I have chosen th
 
 ![Alt text](https://github.com/BorjaMerino/Pazuzu/blob/master/Docs/ejemplo3.png "Putty.exe (no .reloc present)")
 
- Here the Process Explorer ouput:
+ Here the Process Explorer output:
 
 ![Alt text](https://github.com/BorjaMerino/Pazuzu/blob/master/Docs/ejemplo3-1.png "Putty.exe (Process Explorer)")
 
