@@ -19,6 +19,7 @@ For example, if you want to exploit a vulnerability and run your own executable 
   3. **download­86.dll**: this is the noisiest option since the binary will be downloaded and executed from disk.
 
 * Pazuzu also provides some additional features. For example, the **-x** option will encrypt the section containing the binary by using a random RC4 key (which is stored in the DLL TimeStamp). In addition, after running it the PE header of the DLL and the binary section will be overwritten with zeros. I will add more anti-forensic techniques in future versions.
+* With the **-p** option the resulting DLL will be patched with the bootstrap required to reach the export ReflectiveLoader (more info in [www.shelliscoming.com](http://www.shelliscoming.com/2015/05/reflectpatcherpy-python-script-to-patch_11.html)). This option is useful to not depend on the Metasploit handler to inject the DLL. That is, if the DLL is already patched we can upload it to a Web server so that the stager could retrieve it from there (more anonymity).
 
 **Examples**
 * To get the Pazuzu DLL I will use a WinHTTP stager:
