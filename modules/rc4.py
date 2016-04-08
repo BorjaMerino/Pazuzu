@@ -1,3 +1,4 @@
+# Credits to bozhu -> https://github.com/bozhu/RC4-Python/blob/master/rc4.py
 # RC4 random sbox
 def rc4_sbox_random(value):
     print "[*] RC4 payload encryption... Random key: 0x%s" % value + value[::-1]
